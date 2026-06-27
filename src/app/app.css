@@ -1,0 +1,12 @@
+
+.chart-container {
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+}
+
+@media print {
+ .no-print {
+    display: none !important;
+  }
+}

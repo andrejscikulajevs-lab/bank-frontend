@@ -1,0 +1,7 @@
+<h2>Transaction Info</h2>
+<div *ngIf="transaction" >
+  <div>{{ transaction.createdAt | date:'yyyy-MM-dd HH:mm' }} </div>
+  <div>{{ transaction.type }}</div>
+  <div>{{ transaction.amount }} </div>
+</div>
+<button class="no-print"  (click)="download()">Download PDF</button>

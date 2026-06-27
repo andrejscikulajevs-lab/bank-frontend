@@ -1,0 +1,6 @@
+
+<h1>Accounts</h1>
+
+<div *ngFor="let acc of accounts" (click)="selectAccount(acc)">
+  {{ acc.id }} | {{ acc.balance }} {{ acc.currency }}
+</div>
